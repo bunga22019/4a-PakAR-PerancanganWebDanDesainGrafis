@@ -1,0 +1,55 @@
+ <style>
+        :root {
+            --primary-red: #d62828;
+            --dark-red: #980e0e;
+            --light-red: #f08080;
+            --cream: #f8edeb;
+            --dark-text: #333333;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-text);
+            background-color: var(--cream);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 4px;
+            background-color: var(--primary-red);
+            bottom: -10px;
+            left: 25%;
+            border-radius: 2px;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-red);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--dark-red);
+        }
+
+        .payment-info {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: var(--light-red);
+            border-radius: 5px;
+            color: var(--dark-text);
+        }
+    </style>

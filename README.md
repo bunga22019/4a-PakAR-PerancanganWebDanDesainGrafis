@@ -28,9 +28,9 @@ Website ini dibuat untuk memenuhi tugas **Perancangan Web dan Desain Grafi, deng
 ---
 
 ## 🧰 Teknologi yang Digunakan
-- **HTML5**, **CSS3**, dan **JavaScript** (jika ada interaksi kedepan)  
-- Framework CSS: *Bootstrap* atau *Tailwind* (jika digunakan)  
-- Backend: PHP/MySQL (jika ada backend aktif)  
-- Tools Desain: Figma / Canva untuk mockup visual (jika digunakan)
+- **HTML5**, **CSS3**, dan **JavaScript** 
+- Framework CSS:*Tailwind*
+- Backend: PHP/MySQL 
+- Tools Desain: Canva untuk mockup visual 
 
 ---
